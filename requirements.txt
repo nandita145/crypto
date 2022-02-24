@@ -163,12 +163,7 @@ Jinja2==2.11.3
 joblib==1.1.0
 jpeg4py==0.1.4
 jsonschema==4.3.3
-jupyter==1.0.0
-jupyter-client==5.3.5
-jupyter-console==5.2.0
-jupyter-core==4.9.2
-jupyterlab-pygments==0.1.2
-jupyterlab-widgets==1.0.2
+
 kaggle==1.5.12
 kapre==0.3.7
 keras==2.8.0
@@ -253,7 +248,7 @@ prettytable==3.1.1
 progressbar2==3.38.0
 prometheus-client==0.13.1
 promise==2.3
-prompt-toolkit==3.0.28
+
 protobuf==3.17.3
 psutil==5.4.8
 psycopg2==2.7.6.1
