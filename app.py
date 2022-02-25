@@ -131,17 +131,10 @@ st.markdown("""
           <!-- <div class="d-flex flex-wrap justify-content-end"> -->
           <ul class="navbar-nav ms-auto flex-nowrap" style="color: #6f19fa">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="index.html"
-                >Home</a
-              >
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
             </li>
-
             <li class="nav-item">
-              <a
-                class="nav-link active"
-                href="https://share.streamlit.io/nandita-exe/crypto/app.py"
-                >Predict Now</a
-              >
+              <a class="nav-link active" href="https://share.streamlit.io/nandita-exe/crypto/app.py">Predict Now</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="market.html">Trends</a>
