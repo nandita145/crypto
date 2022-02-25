@@ -1,3 +1,5 @@
 [theme]
-base="dark"
-primaryColor="purple"
+
+primaryColor="#8000ff"
+primaryColor="#F63366"
+backgroundColor="#FFFFFF"
