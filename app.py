@@ -106,7 +106,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 st.markdown("""
-    <nav class="navbar navbar-expand-lg navbar-light" style="color: #6f19fa">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="color: #6f19fa">
       <div class="container-fluid" style="color: #6f19fa">
         <img class="navbar-brand" src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png" width="30px" alt="logo"/>
          <a class="navbar-brand fw-bold" href="#" style="color: #6f19fa">Crypto</a>
