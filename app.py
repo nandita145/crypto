@@ -46,7 +46,7 @@ body{
 </nav>
 """, unsafe_allow_html=True)
 
-
+st.set_page_config(layout="wide")
 today = date.today()
 
 d1 = today.strftime("%Y-%m-%d")
