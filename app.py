@@ -19,6 +19,9 @@ st.markdown(hide_menu_style, unsafe_allow_html=True)
 st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">', unsafe_allow_html=True)
 st.markdown("""
 <style>
+nav{
+    background-color: blue;
+}
 .btn2 {
     background-color: #6f19fa;
     border-radius: 80px 0px 80px 0px;
