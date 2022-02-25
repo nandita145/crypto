@@ -9,7 +9,7 @@ from yahooquery import Screener
 
 st.set_page_config(layout="wide")
 st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">', unsafe_allow_html=True)
-st.markdown(' <link rel="stylesheet" href="style.css" />')
+st.markdown(' <link rel="stylesheet" href="style.css" />', unsafe_allow_html=True)
 st.markdown("""
     <nav class="navbar navbar-expand-lg navbar-light" style="color: #6f19fa">
       <div class="container-fluid" style="color: #6f19fa">
