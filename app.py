@@ -9,38 +9,111 @@ from yahooquery import Screener
 
 st.set_page_config(layout="wide")
 st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">', unsafe_allow_html=True)
-st.markdown(' <link rel="stylesheet" href="style.css" />', unsafe_allow_html=True)
+st.markdown("""
+.btn2 {
+    background-color: #6f19fa;
+    border-radius: 80px 0px 80px 0px;
+    padding:10px 20px 10px;
+    color: white;
+    text-decoration:none;
+  
+  }
+  .btn2:hover {
+    background-color: transparent;
+    border:2px solid #6f19fa;
+    border-radius: 80px 0px 80px 0px;
+    padding:10px 20px 10px;
+    color: #6f19fa;
+    text-decoration:none;
+  }
+  .space{
+    margin-top:120px;
+  }
+  .space2{
+    margin-top:50px;
+  }
+
+
+  .btn3 {
+    background-color: transparent;
+    border:2px solid #6f19fa;
+    border-radius: 80px 0px 80px 0px;
+    padding:10px 20px 10px;
+    color: #6f19fa;
+    text-decoration:none;
+  }
+  .btn3:hover {
+    background-color: #6f19fa;
+    border-radius: 80px 0px 80px 0px;
+    padding:10px 20px 10px;
+    color: white;
+    text-decoration:none;
+  
+  }
+
+  .card{
+      border:0px;
+      background: transparent;
+  }
+  .navbar-toggler-icon{
+    color:#6f19fa;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #6f19fa;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #6f19fa;
+  text-decoration: underline;
+  text-decoration: underline  2px #6f19fa;
+  margin-bottom: 5px;
+  text-underline-position: under;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+  color: #6f19fa;
+  text-decoration: underline;
+  background-color: #6f19fa;
+  border-radius: 0px 80px 0px 80px;
+  padding:10px 30px 10px;
+  color: white;
+  text-decoration:none;
+}
+.navbar-light .navbar-nav .nav-link .active {
+  color: #6f19fa;
+  text-decoration: underline  2px #6f19fa;
+  margin-bottom: 5px;
+  text-underline-position: under;
+}
+.bitcoin{
+  background-image: url(aave.png);
+  background-size: 200px;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
+.purple{
+  background-color: #6f19fa;
+}
+.btn4 {
+  background-color: #6f19fa;
+  border:2px solid #ffffff;
+  border-radius: 100px;
+  padding:10px 20px 10px;
+  color: #ffffff;
+  text-decoration:none;
+  font-weight: 700;
+}
+""", unsafe_allow_html=True)
 st.markdown("""
     <nav class="navbar navbar-expand-lg navbar-light" style="color: #6f19fa">
       <div class="container-fluid" style="color: #6f19fa">
-        <img
-          class="navbar-brand"
-          src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png"
-          width="30px"
-          alt="logo"
-        />
-
-        <a class="navbar-brand fw-bold" href="#" style="color: #6f19fa"
-          >Crypto</a
-        >
-        <button
-          fill="black"
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
+        <img class="navbar-brand" src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png" width="30px" alt="logo"/>
+         <a class="navbar-brand fw-bold" href="#" style="color: #6f19fa">Crypto</a>
+        <button fill="black" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"
-            ><i
-              class="fa fa-navicon"
-              style="color: rgb(98, 0, 255); font-size: 28px"
-            ></i
-          ></span>
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color: rgb(98, 0, 255); font-size: 28px"></i></span>
         </button>
-
         <div
           class="collapse navbar-collapse flex-grow-1 text-right"
           id="navbarSupportedContent"
