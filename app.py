@@ -117,7 +117,7 @@ st.markdown("""
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="color: #6f19fa">
       <div class="container-fluid" style="color: #6f19fa">
         <img class="navbar-brand" src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png" width="30px" alt="logo"/>
-         <a class="navbar-brand fw-bold" href="#" style="color: #6f19fa">Crypto</a>
+         <a class="navbar-brand fw-bold" href="https://nandita-exe.github.io/crypto/index.html" style="color: #6f19fa">Crypto</a>
         <button fill="black" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
@@ -126,24 +126,23 @@ st.markdown("""
         </button>
         <div
           class="collapse navbar-collapse flex-grow-1 text-right"
-          id="navbarSupportedContent"
-        >
+          id="navbarSupportedContent">
           <!-- <div class="d-flex flex-wrap justify-content-end"> -->
           <ul class="navbar-nav ms-auto flex-nowrap" style="color: #6f19fa">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+              <a class="nav-link " aria-current="page" href="https://nandita-exe.github.io/crypto/index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="https://share.streamlit.io/nandita-exe/crypto/app.py">Predict Now</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="market.html">Trends</a>
+              <a class="nav-link" href="https://nandita-exe.github.io/crypto/market.html">Trends</a>
             </li>
             <!-- <li class="nav-item">
               <a class="nav-link">About Us</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
+              <a class="nav-link" href="https://nandita-exe.github.io/crypto/contact.html">Contact Us</a>
             </li>
           </ul>
         </div>
