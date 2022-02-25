@@ -9,43 +9,73 @@ from yahooquery import Screener
 
 st.set_page_config(layout="wide")
 st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">', unsafe_allow_html=True)
+st.markdown(' <link rel="stylesheet" href="style.css" />')
 st.markdown("""
-<style>
-body{
-  background-color:black;
-}
-</style>
-<nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav class="navbar navbar-expand-lg navbar-light" style="color: #6f19fa">
+      <div class="container-fluid" style="color: #6f19fa">
+        <img
+          class="navbar-brand"
+          src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png"
+          width="30px"
+          alt="logo"
+        />
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+        <a class="navbar-brand fw-bold" href="#" style="color: #6f19fa"
+          >Crypto</a
+        >
+        <button
+          fill="black"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><i
+              class="fa fa-navicon"
+              style="color: rgb(98, 0, 255); font-size: 28px"
+            ></i
+          ></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse flex-grow-1 text-right"
+          id="navbarSupportedContent"
+        >
+          <!-- <div class="d-flex flex-wrap justify-content-end"> -->
+          <ul class="navbar-nav ms-auto flex-nowrap" style="color: #6f19fa">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="https://share.streamlit.io/nandita-exe/crypto/app.py"
+                >Predict Now</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="market.html">Trends</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link">About Us</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+        <!-- </div> -->
+      </div>
+    </nav>
 """, unsafe_allow_html=True)
 
 today = date.today()
