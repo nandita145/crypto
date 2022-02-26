@@ -130,19 +130,19 @@ st.markdown("""
           <!-- <div class="d-flex flex-wrap justify-content-end"> -->
           <ul class="navbar-nav ms-auto flex-nowrap" style="color: #6f19fa">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="https://nandita-exe.github.io/crypto/index.html">Home</a>
+              <a class="nav-link " aria-current="page" href="https://nandita-exe.github.io/crypto/index.html" target="_self">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="https://share.streamlit.io/nandita-exe/crypto/app.py">Predict Now</a>
+              <a class="nav-link active" href="https://share.streamlit.io/nandita-exe/crypto/app.py" target="_self">Predict Now</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://nandita-exe.github.io/crypto/market.html">Trends</a>
+              <a class="nav-link" href="https://nandita-exe.github.io/crypto/market.html" target="_self">Trends</a>
             </li>
             <!-- <li class="nav-item">
-              <a class="nav-link">About Us</a>
+              <a class="nav-link" target="_self">About Us</a>
             </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="https://nandita-exe.github.io/crypto/contact.html">Contact Us</a>
+              <a class="nav-link" href="https://nandita-exe.github.io/crypto/contact.html" target="_self">Contact Us</a>
             </li>
           </ul>
         </div>
