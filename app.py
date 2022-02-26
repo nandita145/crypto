@@ -109,3 +109,6 @@ st.write("Forecast for next "+str(period)+" days")
 
 st.dataframe(forecast1.tail(period))
 st.plotly_chart(figure, use_container_width=True)
+
+with open('footer.html') as a:
+    st.markdown(a.read(), unsafe_allow_html=True)
