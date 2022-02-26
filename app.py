@@ -16,19 +16,19 @@ hide_menu_style = """
         """
 st.markdown(hide_menu_style, unsafe_allow_html=True)
 
-st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">', unsafe_allow_html=True)
-with open('style.css') as f:
-    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+# st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">', unsafe_allow_html=True)
+# with open('style.css') as f:
+#     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-with open('navbar.html') as n:
-    st.markdown(n.read(), unsafe_allow_html=True)
+# with open('navbar.html') as n:
+#     st.markdown(n.read(), unsafe_allow_html=True)
 
-st.markdown("""
-<script
-src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-crossorigin="anonymous"></script>
-""", unsafe_allow_html=True)
+# st.markdown("""
+# <script
+# src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+# integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+# crossorigin="anonymous"></script>
+# """, unsafe_allow_html=True)
 today = date.today()
 
 d1 = today.strftime("%Y-%m-%d")
@@ -110,5 +110,5 @@ st.write("Forecast for next "+str(period)+" days")
 st.dataframe(forecast1.tail(period))
 st.plotly_chart(figure, use_container_width=True)
 
-with open('footer.html') as a:
-    st.markdown(a.read(), unsafe_allow_html=True)
+# with open('footer.html') as a:
+#     st.markdown(a.read(), unsafe_allow_html=True)
