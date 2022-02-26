@@ -20,8 +20,50 @@ st.markdown('<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap
 with open('style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
-with open('navbar.html') as n:
-    st.markdown(n.read(), unsafe_allow_html=True)
+# with open('navbar.html') as n:
+#     st.markdown(n.read(), unsafe_allow_html=True)
+
+st.markdown("""
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="color: #6f19fa">
+    <div class="container-fluid" style="color: #6f19fa">
+      <img class="navbar-brand" src="https://img.icons8.com/ios/50/000000/bitcoin-exchange--v1.png" width="30px" alt="logo"/>
+       <a class="navbar-brand fw-bold" href="https://nandita-exe.github.io/crypto/index.html" style="color: #6f19fa">Crypto</a>
+      <button fill="black" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class="fa fa-navicon" style="color: rgb(98, 0, 255); font-size: 28px"></i></span>
+      </button>
+      <div
+        class="collapse navbar-collapse flex-grow-1 text-right"
+        id="navbarSupportedContent">
+        <!-- <div class="d-flex flex-wrap justify-content-end"> -->
+        <ul class="navbar-nav ms-auto flex-nowrap" style="color: #6f19fa">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="https://nandita-exe.github.io/crypto/index.html" target="_self">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="https://share.streamlit.io/nandita-exe/crypto/app.py" target="_self">Prediction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://nandita-exe.github.io/crypto/market.html" target="_self">Trends</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link" target="_self">About Us</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link" href="https://nandita-exe.github.io/crypto/contact.html" target="_self">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- </div> -->
+    </div>
+  </nav>
+
+""", unsafe_allow_html=True)
 
 st.markdown("""
 <script
