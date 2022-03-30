@@ -1,5 +1,6 @@
 convertdate==2.4.0
 cftime==1.5.2
+click==8.0.0
 fbprophet==0.7.1
 fix-yahoo-finance==0.0.22
 Markdown==3.3.6
