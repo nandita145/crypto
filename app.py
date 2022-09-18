@@ -54,15 +54,15 @@ symbols = [d['symbol'] for d in dicts]
 with st.form(key='my_form'):
   user_input=st.selectbox('Enter coin symbol: ', symbols, key=1)
   # user_input=st.text_input("Enter coin name: ", 'BTC-USD')
-  coin_name=user_input.upper()
+#   coin_name=user_input.upper()
   # period=int(input('Enter number of days: '))
-  period=st.slider(label='Enter number of days:', min_value=0, max_value=365, key=3)
+  period=st.slider(label='Enter number of days:', min_value=0, max_value=100, key=3)
 
   # period=st.number_input("Enter number of days", 10)
   submit_button = st.form_submit_button(label='Submit')
 # if submit:
 period=int(period)
-data = yf.download(coin_name, 
+data = yf.download(user_input, 
                         start=start_date, 
                         end=end_date, 
                         progress=False)
